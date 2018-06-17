@@ -3,11 +3,12 @@ $(function() {
     $(function()
     {
         $('.scroll_p').jScrollPane();
-  
+         
     });
 jQuery('.scroll_p').jScrollPane(
+    function()
     {
-        stickToBottom: true
+        getContentWidth();
     }
 )
 

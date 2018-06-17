@@ -261,6 +261,13 @@ section.zakaz .block .item .item_wrap .button_wrap a{
  .zayavka .file-form{
   margin: 7px auto;
  }
+ .after_work .block .item:nth-child(2) .scroll_p .jspVerticalBar{
+  display: none;
+ }
+ .after_work .block .item ul li{
+  padding-left: 73px;
+  font-size: 12px;
+ }
 }
 
 /* Medium Devices, Desktops */
@@ -375,6 +382,9 @@ section.etaps{
 section.zakaz .block .item .item_wrap{
       padding: 15px 14px 15px 15px;
 }
+section.zakaz .owl-carousel .owl-next, section.zakaz .owl-carousel .owl-prev{
+  top: -42px;
+}
 section.portfolio h2:last-child{
   padding-left: 0;
 }
@@ -441,6 +451,7 @@ body section.after_work .block .item:nth-child(2){
   line-height: 20px;
   font-size: 14px;
 }
+
 }
 
 /* Extra Small Devices, Phones */
